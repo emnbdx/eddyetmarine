@@ -1,0 +1,159 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Notre liste de noël</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h1>Notre liste de noel</h1>
+		<p>En rouge ce qui est préféré !</p>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		var database = {
+			"people": [
+				{
+					"name": "Marine",
+					wishlist: [
+						{
+							"label": "Pull de Noël taille 34",
+							"url": "https://www.asos.fr/asos-design/asos-design-pull-en-maille-motif-sapin-de-noel/prd/11002288?clr=rouge&SearchQuery=pull%20de%20noel&gridcolumn=1&gridrow=8&gridsize=4&pge=1&pgesize=72&totalstyles=147",
+							"important": true
+						},
+						{
+							"label": "Pull blanc taille 34",
+							"url": "https://www.asos.fr/asos-design/asos-design-pull-epaules-denudees-avec-surpiqures-effet-ondule/prd/10597974?clr=blanc&SearchQuery=&cid=2637&gridcolumn=4&gridrow=13&gridsize=4&pge=1&pgesize=72&totalstyles=1834"
+						},
+						{
+							"label": "Pull blanc taille 34",
+							"url": "https://www.asos.fr/asos-design/asos-design-pull-croise-dans-le-dos/prd/10375466?clr=blanc&SearchQuery=&cid=2637&gridcolumn=1&gridrow=2&gridsize=4&pge=1&pgesize=72&totalstyles=1834"
+						},
+						{
+							"label": "Gants",
+							"url": "http://www.etam.com/pret-a-porter-accessoire-echarpes-gants-bonnets/gants-100--cachemire-650097899.html"
+						},
+						{
+							"label": "Sèche-cheveux (si plusieurs personnes en même temps car sinon trop gros cadeau)",
+							"url": "https://www.amazon.fr/Babyliss-6000E-S%C3%A8che-Cheveux-Digital/dp/B00X9SQB4E/ref=sr_1_5?ie=UTF8&qid=1542124767&sr=8-5&keywords=seche+cheveux+babyliss"
+						},
+						{
+							"label": "Collier",
+							"url": "https://www.apachecreation.com/shop/colliers-sautoirs/collier-cheraw-pierre-de-lune"
+						},
+						{
+							"label": "Veste taille XS couleur bleue",
+							"url": "https://www.ripcurl.eu/fr/womens/clothing/jumpers/black-sands-beach-fleece.html"
+						},
+						{
+							"label": "Tee-shirt taille XS",
+							"url": "https://www.ikks.com/fr/tee-shirt-resille--femme/BM10235-11.html#start=61"
+						},
+						{
+							"label": "Chaussons taille 36/37 couleur gris",
+							"url": "http://www.etam.com/lingerie-de-nuit-accessoires-chaussons/chaussons-bottines-a-pompons-649738002.html"
+						},
+						{
+							"label": "Chemise de nuit",
+							"url": "http://www.etam.com/lingerie-de-nuit/chemises-de-pyjama/chemise-de-nuit-650164235.html"
+						},
+						{
+							"label": "Bougie",
+							"url": "https://www.maisonsdumonde.com/FR/fr/p/bougie-parfumee-en-ceramique-et-ficelle-imprime-palmier-185662.htm"
+						},
+						{
+							"label": "Plateau apéritif",
+							"url": "https://www.maisonsdumonde.com/FR/fr/p/plateau-aperitif-5-bols-en-faience-imprime-tropical-185215.htm"
+						},
+						{
+							"label": "Parfum miss dior chérie",
+							"url": "https://www.beautysuccess.fr/parfum-dior-miss-dior-cherie-eau-de-parfum-femme-c000844"
+						}
+					]
+				},
+				{
+					"name": "Eddy",
+					wishlist: [
+						{
+							"label": "Suunto Spartan Sport Wrist HR",
+							"url": "https://www.suunto.com/fr-fr/Produits/Montres-de-sport/suunto-spartan-sport-wrist-hr/Suunto-Spartan-Sport-All-Black-avec-cardio-frequencemetre-au-poignet/"
+						},
+						{
+							"label": "Forerunner® 645",
+							"url": "https://buy.garmin.com/en-US/US/p/591311/pn/010-01863-00#"
+						},
+						{
+							"label": "Rasoir",
+							"url": "https://www.amazon.fr/BRAUN-Rasoir-S%C3%A9ries-5-5030s/dp/B008LQZOLU/ref=sr_1_2?ie=UTF8&qid=1542566326&sr=8-2&keywords=rasoir+braun+serie+5"
+						},
+						{
+							"label": "Livre Elon musk",
+							"url": "https://www.amazon.fr/gp/product/2212567863/ref=ox_sc_saved_title_7?smid=A1X6FK5RDHNB96&psc=1"
+						},
+						{
+							"label": "Livre Reinventing Organizations",
+							"url": "https://www.amazon.fr/gp/product/2354561059/ref=ox_sc_saved_title_6?smid=A1X6FK5RDHNB96&psc=1"
+						},
+						{
+							"label": "Livre L'Antarctique, le rêve d'une vie",
+							"url": "https://www.amazon.fr/LAntarctique-r%C3%AAve-dune-Mike-Horn/dp/2374480488/ref=sr_1_1?s=books&ie=UTF8&qid=1542567976&sr=1-1&keywords=mike+horn"
+						},
+						{
+							"label": "T-shirt kooples",
+							"url": "https://www.thekooples.com/en/grey-cotton-t-shirt-with-embroidered-logo-1593492.html"
+						},
+						{
+							"label": "Chemise diesel",
+							"url": "https://fr.diesel.com/fr/chemises/s-stryped-new/00SNSE0HASM.html?dwvar_00SNSE0HASM_color=5ID"
+						},
+						{
+							"label": "T-shirt diesel",
+							"url": "https://fr.diesel.com/fr/t-shirts/t-just-yf/00SNRG0CATM.html?dwvar_00SNRG0CATM_color=100"
+						},
+						{
+							"label": "T-shirt diesel",
+							"url": "https://fr.diesel.com/fr/t-shirts/t-just-wo/00SHAA0PATI.html?dwvar_00SHAA0PATI_color=100"
+						},
+						{
+							"label": "Rice cooker",
+							"url": "https://www.amazon.fr/Tefal-RK102811-Classic-Cuiseur-M%C3%A9tallis%C3%A9/dp/B00V8ZQKGO/ref=sr_1_2?s=kitchen&ie=UTF8&qid=1542746963&sr=1-2&keywords=rice+cooker&refinements=p_n_feature_nineteen_browse-bin%3A13519700031"
+						}
+					]
+				}
+			]
+		};
+
+		$(document).ready(function(){
+
+			// Start markup build
+			$.each(database.people, function(index, peopleElement) {
+				var div = $('<h2/>')
+					.text(peopleElement.name)
+					.appendTo(".container");
+				var ul = $("<ul/>", {
+						class: 'list-group list-group-flush'
+					})
+					.appendTo(".container");
+				$.each(peopleElement.wishlist, function(index, wishlistElement) {
+					var li = $('<li/>', {
+							class: 'list-group-item' + (wishlistElement.important ? ' list-group-item-danger' : '')
+						})
+				        .appendTo(ul);
+				    var link = $('<a/>')
+				    	.attr("href", wishlistElement.url)
+				    	.attr("target", '_blank')
+				        .text(wishlistElement.label)
+				        .appendTo(li);
+				});
+
+			});
+
+		});
+	</script>
+</body>
+</html>
